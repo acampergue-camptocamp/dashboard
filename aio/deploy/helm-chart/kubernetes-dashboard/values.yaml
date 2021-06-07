@@ -37,6 +37,13 @@ labels: {}
 #   - --enable-insecure-login
 #   - --system-banner="Welcome to Kubernetes"
 
+## Additional containers
+##
+extraContainers: []
+# - name: extra-container
+#   image: repository/extra-container-image:latest
+#   imagePullPolicy: Always
+
 ## Additional container environment variables
 ##
 extraEnv: []
